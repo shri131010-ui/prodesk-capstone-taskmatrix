@@ -59,10 +59,8 @@ Team Members can:
 
 ---
 
-# 🛠️ Tech Stack
-
+# Tech Stack
 ## Frontend
-
 * Next.js
 * React
 * JavaScript
@@ -70,46 +68,40 @@ Team Members can:
 * CSS
 
 ## State Management
-
 * Redux Toolkit
 * React Redux
 
 ## Backend
-
 * Node.js
 * REST API
 
 ## Database
-
 * MongoDB
 
 ## UI/UX & Architecture
-
 * Figma
 * Draw.io
 
 ## Version Control & Deployment
-
 * Git
 * GitHub
 * Vercel
 
 ---
 
-# 🚀 Core Features
+# Core Features
 
-## 🟢 P0 — Mandatory Features
+##  P0 — Mandatory Features
 
 P0 features represent the minimum functional requirements of TaskMatrix and will be fully implemented.
 
 ---
 
-## 1. 🔐 Authentication & Registration
+## 1. Authentication & Registration
 
 TaskMatrix will provide a basic user authentication system.
 
 ### Features
-
 * User Registration / Sign Up
 * User Login
 * User Logout
@@ -117,9 +109,7 @@ TaskMatrix will provide a basic user authentication system.
 * Protected application areas
 
 ### Registration Fields
-
 Users will provide:
-
 * Full Name
 * Email Address
 * Password
@@ -127,7 +117,6 @@ Users will provide:
 * User Role
 
 ### Authentication Flow
-
 ```text
 Register
    ↓
@@ -140,12 +129,11 @@ Projects / Tasks
 
 ---
 
-# 2. 📊 Dashboard
+# 2. Dashboard
 
 The Dashboard will provide an overview of the user's projects and tasks.
 
 ### Dashboard Information
-
 * Total Projects
 * Total Tasks
 * Completed Tasks
@@ -166,12 +154,11 @@ Pending            7
 
 ---
 
-# 3. 📁 Project Management
+# 3.  Project Management
 
 Users with appropriate permissions will be able to manage projects.
 
 ### Project Features
-
 * Create Project
 * View Projects
 * View Project Details
@@ -181,7 +168,6 @@ Users with appropriate permissions will be able to manage projects.
 ### Project Information
 
 Each project may contain:
-
 * Project Name
 * Description
 * Start Date
@@ -192,12 +178,11 @@ Each project may contain:
 
 ---
 
-# 4. ✅ Task Management
+# 4.  Task Management
 
 TaskMatrix will allow users to create and manage project tasks.
 
 ### Task Features
-
 * Create Task
 * View Tasks
 * View Task Details
@@ -206,9 +191,7 @@ TaskMatrix will allow users to create and manage project tasks.
 * Assign Task
 
 ### Task Information
-
 Each task will contain:
-
 * Task Title
 * Description
 * Assignee
@@ -219,7 +202,7 @@ Each task will contain:
 
 ---
 
-# 5. 🔄 Task Status Management
+# 5. Task Status Management
 
 Tasks will follow a simple Agile workflow.
 
@@ -237,13 +220,13 @@ Users will be able to update the status of tasks according to their workflow.
 
 ---
 
-# 🟡 P1 — Selected Features
+#  P1 — Selected Features
 
 Only selected P1 features will be implemented to maintain a focused and achievable project scope.
 
 ---
 
-# 6. 🗂️ Kanban Board
+# 6.  Kanban Board
 
 TaskMatrix will provide a Kanban-style board for visually organizing tasks.
 
@@ -260,7 +243,7 @@ The Kanban Board will make task progress easier to visualize.
 
 ---
 
-# 7. 🔍 Search & Filters
+# 7.  Search & Filters
 
 Users will be able to quickly find and organize tasks.
 
@@ -269,7 +252,6 @@ Users will be able to quickly find and organize tasks.
 * Search tasks by title or keyword
 
 ### Filters
-
 * Filter by Status
 * Filter by Priority
 
@@ -287,7 +269,7 @@ All | Low | Medium | High
 
 ---
 
-# 🔴 P2 — Stretch Goals
+#  P2 — Stretch Goals
 
 P2 features are outside the current capstone implementation scope.
 
@@ -301,11 +283,11 @@ The following features will not be implemented in the current version:
 
 ---
 
-# 🖥️ Planned UI/UX Screens
+#  Planned UI/UX Screens
 
 The UI/UX will be designed in Figma before development.
 
-## 1. 🔐 Authentication Screen
+## 1.  Authentication Screen
 
 The Authentication section will include:
 
@@ -318,7 +300,7 @@ The Authentication section will include:
 
 ---
 
-## 2. 📊 Main Dashboard
+## 2. Main Dashboard
 
 The Dashboard will contain:
 
@@ -330,7 +312,7 @@ The Dashboard will contain:
 
 ---
 
-## 3. 📄 Project / Task Details
+## 3.  Project / Task Details
 
 The details view will display:
 
@@ -344,7 +326,7 @@ The details view will display:
 
 ---
 
-## 4. 🗂️ Kanban Board
+## 4. Kanban Board
 
 An additional screen will be designed for the Kanban workflow:
 
@@ -389,7 +371,7 @@ A detailed Entity Relationship Diagram (ERD) will be created during the system a
 
 ---
 
-# ⚛️ Frontend State Architecture
+#  Frontend State Architecture
 
 Redux Toolkit will be used for managing global application state.
 
@@ -420,7 +402,7 @@ The complete State Tree Diagram will be created during the architecture phase.
 
 ---
 
-# 🔌 Planned API Endpoints
+#  Planned API Endpoints
 
 ## Authentication
 
@@ -454,7 +436,7 @@ These endpoints represent the planned API architecture and will be implemented p
 
 ---
 
-# 🏗️ System Architecture
+# System Architecture
 
 The system architecture phase will include:
 
@@ -482,7 +464,7 @@ The system architecture phase will include:
 
 ---
 
-# 🎨 UI/UX Design
+#  UI/UX Design
 
 The application interface will be designed in Figma before implementation.
 
@@ -499,7 +481,7 @@ The application interface will be designed in Figma before implementation.
 
 ---
 
-# 📅 Development Plan
+#  Development Plan
 
 The project will be developed in multiple phases.
 
@@ -537,27 +519,8 @@ The project will be developed in multiple phases.
 
 ---
 
-# 📌 Project Scope
 
-| Priority | Feature            | Status       |
-| -------- | ------------------ | ------------ |
-| P0       | Registration       | Planned      |
-| P0       | Login / Logout     | Planned      |
-| P0       | User Roles         | Planned      |
-| P0       | Dashboard          | Planned      |
-| P0       | Project CRUD       | Planned      |
-| P0       | Task CRUD          | Planned      |
-| P0       | Task Assignment    | Planned      |
-| P0       | Task Status        | Planned      |
-| P1       | Kanban Board       | Planned      |
-| P1       | Search & Filters   | Planned      |
-| P2       | Notifications      | Out of Scope |
-| P2       | Advanced Analytics | Out of Scope |
-| P2       | Advanced Reports   | Out of Scope |
-
----
-
-# 📈 Project Status
+#  Project Status
 
 **Current Status: Planning & Architecture Phase**
 
@@ -567,7 +530,7 @@ Development will begin after the initial project blueprint and designs are final
 
 ---
 
-# 👩‍💻 Project Information
+#  Project Information
 
 **Project Name:** TaskMatrix
 **Project Type:** Agile Project Management Platform
