@@ -335,8 +335,8 @@ TODO → IN PROGRESS → IN REVIEW → DONE
 ```
 
 ### Figma Design
-
-**Coming Soon**
+## 🎨 UI/UX Design-
+https://www.figma.com/design/zMplOcPtv27FbBbV10x3eB/TaskMatrix-%E2%80%94-UI-UX-Design?node-id=0-1&t=Vy5R9e21I5JkfO8e-1
 
 ---
 
